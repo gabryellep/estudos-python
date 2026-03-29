@@ -1,3 +1,5 @@
+print(f"{'*'*12} Calculadora Simples {'*'*12}")
+
 while True:
   #Estrutura para tratamento da entrada do usuário
   try:
@@ -8,10 +10,10 @@ while True:
     continue
   
   #Imprime instruções para escolha do usuário
-  print(f"{'*'*10} Calculadora Simples {'*'*10}")
   print("Qual operação você deseja realizar? \n[1]Soma \n[2]Subtração\n[3]Multiplicação \n[4]Divisão ")
   
   #Recebe opção escolhida pelo usuário
+  print(" ")
   operacao = int(input("Infome o número referente a operação desejada: "))
   
   #Confere opção e realiza os calculos necessários
